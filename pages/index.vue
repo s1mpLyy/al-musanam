@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main class="grid grid-cols-[60%,40%]">
+    <main class="grid grid-cols-1 lg:grid-cols-[60%,40%]">
       <section class="grid grid-cols-1">
         <div class="w-full grid grid-cols-2 max-h-fit">
           <div class="border-b-[1.5px] border-r-[1.5px] border-black p-5">
@@ -14,7 +14,7 @@
             class="border-b-[1.5px] border-r-[1.5px] border-black flex items-end justify-start"
           >
             <h3
-              class="text-2xl text-black uppercase p-5 font-medium tracking-tight hover:tracking-wide transform duration-200 ease-linear"
+              class="text-base lg:text-2xl text-black uppercase p-5 font-medium tracking-tight hover:tracking-wide transform duration-200 ease-linear"
             >
               Transformaing skylines and crafting icons
             </h3>
@@ -22,10 +22,10 @@
         </div>
         <article class="p-5 border-r-[1.5px] border-b-[1.5px] border-black">
           <h4 class="text-2xl font-medium text-black italic">- About Us</h4>
-          <h3 class="text-8xl font-bold leading-none">
+          <h3 class="text-2xl lg:text-8xl font-bold leading-none">
             Our Misson is to construct a better future
           </h3>
-          <div class="grid grid-cols-2">
+          <div class="grid grid-cols-1 lg:grid-cols-2">
             <p class="text-black text-xl font-normal pt-4">
               We deliver exceptional construction projects with integrity,
               professionalism, and safety, building logo2kng-lasting
@@ -82,7 +82,7 @@
     </main>
     <section class="grid grid-cols-1 py-5">
       <h2
-        class="text-8xl text-black font-bold tracking-wider uppercase w-1/2 px-5"
+        class="text-4xl lg:text-8xl text-black font-bold tracking-wider uppercase w-11/12 lg:w-1/2 px-5"
       >
         constructor philosophy.
       </h2>
@@ -104,6 +104,27 @@
             <span class="text-4xl mx-4">Marquee Item 5</span>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="grid grid-cols-1 p-5 relative">
+      <div class="inline-flex z-10">
+        <h5 class="font-thin text-lg lg:text-2xl">
+          About
+          <div class="w-20 lg:w-52 h-[1px] border-t border-black"></div>
+        </h5>
+        <p
+          class="text-xl md:text-4xl lg:text-5xl xl:text-6xl text-black font-bold break-words uppercase tracking-tight"
+        >
+          deliver exceptional projects while maintaining high standards of
+          integrity, professionalism, and safety.
+          <span class="text-gray-500/90">
+            They prioritize building long-lasting relationships with clients,
+            partners, and employees based on trust, transparency, and mutual
+            respect. They approach each project with meticulous attention to
+            detail,
+          </span>
+          ensuring strict adherence to timelines and budgets.
+        </p>
       </div>
     </section>
   </div>

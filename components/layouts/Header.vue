@@ -1,6 +1,6 @@
 <template>
   <header id="header-layout">
-    <div class="w-full grid grid-cols-[15%,55%,30%] bg-">
+    <div class="w-full grid grid-cols-2 lg:grid-cols-[15%,55%,30%] bg-">
       <div
         class="px-5 border-r-[1.5px] border-b-[1.5px] border-solid border-black"
       >
@@ -12,7 +12,7 @@
         />
       </div>
       <nav
-        class="w-full border-r-[1.5px] border-b-[1.5px] border-solid border-black inline-flex items-center justify-evenly list-none"
+        class="w-full border-r-[1.5px] border-b-[1.5px] border-solid border-black inline-flex lg:flex-nowrap flex-wrap items-center justify-evenly list-none"
       >
         <li class="text-xl text-black font-normal">About Us</li>
         <li class="text-xl text-black font-normal">Projects</li>
