@@ -127,6 +127,47 @@
         </p>
       </div>
     </section>
+    <section class="grid grid-cols-1 p-5 w-full">
+      <h5 class="font-thin text-lg lg:text-2xl">
+        Our projects
+        <div class="w-20 lg:w-52 h-[1px] border-t border-black"></div>
+      </h5>
+      <div class="w-full columns-1 md:columns-2 lg:columns-3 p-5">
+        <article
+          v-for="(_, indexOfProject) in [1, 2, 3, 4, 5, 6, 7, 8, 9]"
+          :key="indexOfProject"
+          :id="`projectCard-${indexOfProject}`"
+          class="flex flex-col items-center max-w-md max-h-fit h-auto m-4"
+        >
+          <figure class="w-full">
+            <img
+              :src="
+                indexOfProject % 2 === 0
+                  ? '/images/test/out-door.jpg'
+                  : '/images/test/swimming-pool.jpg'
+              "
+              class="aspect-auto object-cover object-center w-full h-full"
+              :class="indexOfProject % 2 !== 0 ? 'max-h-60' : 'max-h-72'"
+              alt=""
+            />
+          </figure>
+          <h3
+            class="w-full text-start text-xl font-medium py-1 md:py-2 lg:py-3"
+          >
+            Project one
+          </h3>
+          <p
+            class="text-lg font-normal"
+            :class="indexOfProject % 2 === 0 ? 'line-clamp-3' : 'line-clamp-2'"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+            officia animi maiores molestias eligendi est. Ipsum doloremque, rem
+            velit id hic nobis repudiandae, quae odit, maxime ab dolores quaerat
+            natus.
+          </p>
+        </article>
+      </div>
+    </section>
   </div>
 </template>
 
