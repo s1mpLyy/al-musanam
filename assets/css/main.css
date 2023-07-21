@@ -5,6 +5,24 @@
 
 html,
 body {
-  @apply scroll-smooth m-0;
+  @apply scroll-smooth m-0 bg-primary-100;
   font-family: "Roboto", sans-serif;
+}
+
+.bg-primary-gradient {
+  background: linear-gradient(180deg, #fbfaec, #f3eadf 18.75%, #e3d9cf);
+}
+
+.slide-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.slide-leave-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  transform: translateY(100%);
+  opacity: 0;
 }

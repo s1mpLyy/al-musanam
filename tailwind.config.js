@@ -10,6 +10,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: {
+          100: "#F2E9DE",
+        },
+      },
       animation: {
         marquee: "marquee 35s linear infinite",
         marquee2: "marquee2 35s linear infinite",
