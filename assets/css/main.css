@@ -13,16 +13,30 @@ body {
   background: linear-gradient(180deg, #fbfaec, #f3eadf 18.75%, #e3d9cf);
 }
 
-.slide-enter-active {
+.slide-bottom-top-enter-active {
   transition: all 0.3s ease-out;
 }
 
-.slide-leave-active {
+.slide-bottom-top-leave-active {
   transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
 }
 
-.slide-enter-from,
-.slide-leave-to {
+.slide-bottom-top-enter-from,
+.slide-bottom-top-leave-to {
   transform: translateY(100%);
-  opacity: 0;
+  /* opacity: 0; */
+}
+
+.slide-top-bottom-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.slide-top-bottom-leave-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-top-bottom-enter-from,
+.slide-top-bottom-leave-to {
+  transform: translateY(-100%);
+  /* opacity: 0; */
 }

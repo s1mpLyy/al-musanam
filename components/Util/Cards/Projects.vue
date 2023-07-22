@@ -23,7 +23,7 @@
           alt=""
         />
       </figure>
-      <Transition name="slide">
+      <Transition name="slide-bottom-top">
         <div
           v-show="onMouse[indexOfProject]"
           class="bg-primary-gradient absolute bottom-0 p-4 border-t-[1.5px] border-black"
