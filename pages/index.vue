@@ -3,7 +3,7 @@
     <main class="grid grid-cols-1 lg:grid-cols-[60%,40%]">
       <section class="grid grid-cols-1">
         <div class="w-full grid grid-cols-2 max-h-fit">
-          <div class="border-b-[1.5px] border-r-[1.5px] border-black">
+          <div class="border-b border-r border-black">
             <img
               src="/images/test/swimming-pool.jpg"
               class="w-full h-auto max-h-[350px] object-center object-cover"
@@ -11,7 +11,7 @@
             />
           </div>
           <div
-            class="border-b-[1.5px] border-r-[1.5px] border-black flex items-end justify-start"
+            class="border-b border-r border-black flex items-end justify-start"
           >
             <h3
               class="text-base lg:text-2xl text-black uppercase p-5 font-medium tracking-tight hover:tracking-wide transform duration-200 ease-linear"
@@ -20,7 +20,7 @@
             </h3>
           </div>
         </div>
-        <article class="p-5 border-r-[1.5px] border-b-[1.5px] border-black">
+        <article class="p-5 border-r border-b border-black">
           <h4 class="text-2xl font-medium text-black italic">- About Us</h4>
           <h3 class="text-2xl lg:text-8xl font-bold leading-none">
             Our Misson is to construct a better future
@@ -40,9 +40,7 @@
               <div
                 class="inline-flex items-center relative w-24 hover:w-32 hover:justify-around justify-start transform duration-150 ease-linear"
               >
-                <span
-                  class="h-14 w-14 rounded-full border-[1.5px] border-black"
-                ></span>
+                <span class="h-14 w-14 rounded-full border border-black"></span>
                 <span class="w-8 h-0.5 bg-black -ml-2.5"></span>
                 <span class="w-2 h-2 triangle"></span>
               </div>
@@ -52,9 +50,7 @@
         </article>
       </section>
       <section class="grid grid-cols-1 items-start">
-        <div
-          class="border-l-[1.5px] border-b-[1.5px] border-black -ml-[0.5px] h-fit max-h-fit"
-        >
+        <div class="border-l border-b border-black -ml-[0.5px] h-fit max-h-fit">
           <!-- The main slider component should be here -->
           <img
             src="/images/test/out-door.jpg"
@@ -62,7 +58,7 @@
             alt=""
           />
         </div>
-        <div class="p-5 boredr-l-[1.5px] border-b-[1.5px] border-black h-fit">
+        <div class="p-5 boredr-l border-b border-black h-fit">
           <div class="inline-flex items-center">
             <p class="underline uppercase text-lg font-semibold tracking-wider">
               Find our more about our brand story
